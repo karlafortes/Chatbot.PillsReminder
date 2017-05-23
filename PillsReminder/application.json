@@ -1,0 +1,25 @@
+﻿{
+  "identifier": "pillsreminder",
+  "accessKey": "VHVOWnNrM0kzYTBOUHFwT2FkWEQ=",
+  "messageReceivers": [
+    //{
+    //  "mediaType": "text/plain",
+    //  "content": "^(oi|olá|ajuda)$",
+    //  "response": {
+    //    "mediaType": "text/plain",
+    //    "plainContent": "Olá!" //, ${contact.name}"
+    //  }
+    //},
+    {
+      "type": "PlainTextMessageReceiver",
+      "mediaType": "text/plain"
+    }
+    //{
+    //  "priority": "100",
+    //  "response": {
+    //    "mediaType": "text/plain",
+    //    "plainContent": "Ops, não entendi o que você quis dizer. Envie a palavra AJUDA caso precise."
+    //  }
+    //}
+  ]
+}
